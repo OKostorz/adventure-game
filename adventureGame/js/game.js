@@ -29,6 +29,8 @@ function Level1() {
 	document.getElementById('level_title').innerHTML = '*Hohoho* widzę ze trafiłeś na lekcje „Matematyka”. Mam nadzieje ze dobry z tego przedmiotu w szkole byleś! Oto pierwsze zadanie: Zagadka 1. Jaka liczbę otrzymamy po pomnożeniu wszystkich cyfr z telefonu?';
 	document.getElementById('level_image').src = 'img/math.jpg';
 	
+    microscope.style.display = "none";
+    
 	console.log("Level1()");
 
 	var opt1 = document.getElementById('option1');
@@ -288,7 +290,7 @@ function gameOverC() {
 function Level6() {
 	document.getElementById('level_title').innerHTML = 'Jak tam ? Podoba Ci się jeszcze ? No dobra nie będę Cię męczył moimi zabawami. O to ostatnie pytanie z „Fizyka”!: Równanie E=mc^2 pochodzi z teorii względności Einsteina. Co oznacza w nim c?';
 	document.getElementById('level_image').src = 'img/fizyka.jpg';
-
+    
 	console.log("Level6()");
 
 	var opt1 = document.getElementById('option1');
