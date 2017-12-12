@@ -114,7 +114,7 @@ function Level2() {
 		}
     
     var opt4 = document.getElementById('option4');
-        opt4.innerHTML = 'w 4';
+        opt4.innerHTML = 'w czterech';
         opt4.style.display = "inline-block";
         opt4.onclick = function(){
             Geography = true;
@@ -300,7 +300,7 @@ function Level6() {
 	var opt2 = document.getElementById('option2');
 		opt2.innerHTML = 'Prędkość światła w próżni';
 		opt2.onclick = function(){
-            Physics - true;
+            Physics = true;
 			Level7();
 		}
         
@@ -310,8 +310,9 @@ function Level6() {
             endA();
         }
         
-    var opt4 = document.getElementById('option3');
-        opt4.innerHTML = '5Prędkość poruszającego się obiektu';
+    var opt4 = document.getElementById('option4');
+        opt4.style.display = "inline-block";
+        opt4.innerHTML = 'Prędkość poruszającego się obiektu';
         opt4.onclick = function(){
             endA();
         }
@@ -329,6 +330,12 @@ function endA(){
 
 	var opt2 = document.getElementById('option2');
 		opt2.style.display = "none";
+    
+    var opt3 = document.getElementById('option3');
+        opt3.style.display = "none";
+    
+    var opt4 = document.getElementById('option4');
+        opt4.style.display = "none";
 }
 
 function Level7() {
@@ -349,5 +356,11 @@ function Level7() {
         opt2.onclick = function(){
             alert('Poważnie ? Wiesz ze ośmiornica ma macki…')
         }
+        
+    var opt3 = document.getElementById('option3');
+        opt3.style.display = "none";
+    
+    var opt4 = document.getElementById('option4');
+        opt4.style.display = "none";    
 }
 
