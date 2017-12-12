@@ -13,6 +13,7 @@ var hasScissors = false;
 var hasWo1 = false;
 var hasMicroscope = false;
 var Labo = false;
+var Physics = false; 
 
 /*/--------BEGIN VAN SPEL--------/*/
 
@@ -256,7 +257,7 @@ function gameOverC() {
 	var opt1 = document.getElementById('option1');
 		opt1.innerHTML = 'Strachu';
 		opt1.onclick = function(){
-           Level1();
+            Level1();
 		}
         
 	var opt2 = document.getElementById('option2');
@@ -293,25 +294,26 @@ function Level6() {
 	var opt1 = document.getElementById('option1');
 		opt1.innerHTML = 'Częstotliwość fali';
 		opt1.onclick = function(){
-
+            endA();
 		}
 
 	var opt2 = document.getElementById('option2');
 		opt2.innerHTML = 'Prędkość światła w próżni';
 		opt2.onclick = function(){
+            Physics - true;
 			Level7();
 		}
         
     var opt3 = document.getElementById('option3');
         opt3.innerHTML = 'Przyspieszenie poruszającego się obiektu';
         opt3.onclick = function(){
-            
+            endA();
         }
         
     var opt4 = document.getElementById('option3');
         opt4.innerHTML = '5Prędkość poruszającego się obiektu';
         opt4.onclick = function(){
-            
+            endA();
         }
 }
 
