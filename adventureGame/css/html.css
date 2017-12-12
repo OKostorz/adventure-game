@@ -1,0 +1,63 @@
+html {
+	color: #fff;
+	background-color: black;
+}
+
+body {
+	background-color: #123;
+	font-family: sans-serif;
+}
+
+nav {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	top: 200px;
+	left: 830px;
+	
+}
+
+#level_title {
+	background-color: #888f9b;
+	color: #fff;	
+	position: absolute;
+	
+	top: 6%;
+	left: 60%;
+	width: 400px;
+	height: 250px;
+    
+	text-align: center;
+    font-size: 17px;	
+}
+
+#level_image {
+    position: absolute;
+
+	border: solid;
+    
+	top: 6%;
+	left: 9%;
+	height: 500px;
+}
+
+#scissors {
+    position: absolute;
+    z-index: 2;
+    
+    left: 165px;
+    top: 110px;
+    width: 35px;
+    display: none;
+}
+
+#microscope {
+    position: absolute;
+    z-index: 2;
+    
+    left: 560px;
+    top: 300px;
+    width: 55px;
+    display: none;
+}
