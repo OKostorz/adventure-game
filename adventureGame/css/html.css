@@ -23,6 +23,7 @@ nav {
 	color: #fff;	
 	position: absolute;
 	
+    border-radius: 5px; 
 	top: 6%;
 	left: 60%;
 	width: 400px;
@@ -36,7 +37,7 @@ nav {
     position: absolute;
 
 	border: solid;
-    
+    border-radius: 5px; 
 	top: 6%;
 	left: 9%;
 	height: 500px;
