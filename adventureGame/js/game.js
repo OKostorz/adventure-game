@@ -171,6 +171,8 @@ function Level4() {
 
 	console.log("Level4()");
 
+    scissors.style.display = "none";
+    
 	var opt1 = document.getElementById('option1');
 		opt1.innerHTML = 'Pieprz sie!';
 		opt1.onclick = function(){
@@ -292,7 +294,9 @@ function Level6() {
 	document.getElementById('level_image').src = 'img/fizyka.jpg';
     
 	console.log("Level6()");
-
+    
+    scissors.style.display = "none";
+    
 	var opt1 = document.getElementById('option1');
 		opt1.innerHTML = 'Częstotliwość fali';
 		opt1.onclick = function(){
@@ -324,6 +328,8 @@ function endA(){
     document.getElementById('level_title').innerHTML = 'Dzięki ze miałeś czas aby ze mną się pobawić. Może na koniec jeszcze jedno pytanie ? Nie no żartuje. Baw się dobrze w swym nudnym życiu. A ja idę szukać nowej zabawki';
     document.getElementById('level_image').src = 'img/game.jpg';
 
+    scissors.style.display = "none";
+    
 	var opt1 = document.getElementById('option1');
 		opt1.innerHTML = 'Graj jednak na nowo';
 		opt1.onclick = function(){
